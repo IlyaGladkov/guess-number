@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSt {
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: mediumseagreen;
+    font-size: 24px;
+}
+
+#minIn, #maxIn {
+    width: 100px;
+}
